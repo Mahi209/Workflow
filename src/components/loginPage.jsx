@@ -92,6 +92,7 @@ const navigate=useNavigate();
                   id="emailInput"
                   value={formData.email}
                   onChange={handleForm}
+                  required
                 /><br />
               </div>
 
@@ -104,6 +105,7 @@ const navigate=useNavigate();
                   onChange={handleForm}
                   placeholder="Password"
                   className="Register-input"
+                  required
                 /><br />
               </div>
 
