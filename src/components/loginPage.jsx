@@ -10,13 +10,10 @@ import plant1 from '../images/plant1.svg';
 import plant2 from '../images/Plant2.svg';
 import Search from '../images/search.svg';
 import Home from '../images/home.svg';
-import { useAuth } from "../context/AuthContext";
 import '../css/Login.css';
 const Login = () => {
     
 const navigate=useNavigate();
-
-const {login} = useAuth();
   const [formData, setFormData] = useState({
     email: '',
     password: '',
@@ -38,7 +35,7 @@ const {login} = useAuth();
     try {
       const res = await axios.post('http://localhost:5000/api/auth/login', formData);
       console.log("Login Success:", res.data);
-       login();  
+      
       navigate('/dashboard')
       setFormData({ email: '', password: '', role: '' });
     } catch (err) {
