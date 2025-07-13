@@ -1,0 +1,173 @@
+#Outer{
+    display: flex;
+    gap: 10rem;
+}
+#Dashboard{
+    height: 100vh;
+    width:90rem ;
+    margin-left: 35px;
+    color:white;
+  background-color: #E7ECFE;
+}
+#row-one{
+    margin-top: 1rem;
+    height: 140px;
+    display: flex;
+    gap: 20px;
+}
+.card{
+    border-radius: 20px;
+    display: flex;
+    margin-top: 10px;
+    margin-left: 30px;
+    height: 120px;
+    width: 300px;
+    background-color: rgb(255, 255, 255);
+}
+.card-part1{
+    margin:0px 0px 0px 20px;
+    height: 80px;
+    width: 180px;
+}
+.data{
+    color:#567BFF;
+    font-size: 37px;
+    margin-top: -10px;
+}
+.data-header{
+    font-size: 15px;
+    color: black;
+    font-family: 'Inter', 'Roboto', 'Segoe UI', sans-serif;
+}
+.data-footer{
+    font-family: 'Inter', 'Roboto', 'Segoe UI', sans-serif;
+    display: flex;
+    margin-top: -30px;
+}
+.msgs{
+    font-size:10px ;
+}
+.imgs{
+    margin:30px 0px 0px 40px ;
+    height: 50px;
+    width: auto;
+    filter: invert(0.4);
+}
+#row-two{
+    display: flex;
+    gap: 30px;
+    margin-top: 5px;
+    height: 400px;
+    width: 100;
+}
+#employee-activity-card{
+    border-radius: 10px;
+    margin-left:30px;
+    background-color:white;
+    height: 400px;
+    width: 600px;
+}
+#activity-1{
+    display: flex;
+    gap: 30rem;
+}
+#months-container{
+    margin-left: 20px;
+    display: flex;
+    align-items: flex-end;
+    gap: 10px;
+    height: 330px;
+}
+.month-bar{
+    width: 35px;
+    background-color: #E7ECFE;
+    border-radius: 8px;
+}
+#emp-act{
+    margin:10px 0px -10px 10px;
+    font-size: 20px;
+    font-weight: 400;
+    color: black;
+}
+#quaterly{
+    color: gray;
+    border-radius: 5px;
+    padding: 5px 10px;
+    background-color: #E7ECFE;
+}
+.month{
+    color: black;
+}
+#attendence-card{
+    border-radius: 10px;
+    width: 373px;
+    background-color: white;
+}
+#Atnd-text{
+    color: black;
+    margin-left: 10px;
+}
+.react-calendar {
+ margin-left: 30px;
+  border: none;
+  border-radius: 12px;
+  width: 300px;
+  font-family: 'Inter', sans-serif;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+}
+
+.react-calendar__navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+  font-weight: 600;
+  color: #2d2d2d;
+}
+
+.react-calendar__navigation button {
+  background: none;
+  border: none;
+  font-size: 1.2rem;
+  color: #567BFF;
+  cursor: pointer;
+}
+
+.react-calendar__month-view__weekdays {
+  display: flex;
+  text-align: center;
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: #94a3b8;
+  text-transform: capitalize;
+}
+
+.react-calendar__tile {
+  border: none;
+  background: none;
+  padding: 10px 0;
+  font-size: 0.95rem;
+  color: #1e293b;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+  border-radius: 8px;
+}
+
+.react-calendar__tile--now {
+  background-color: #e0f2fe;
+  border-radius: 8px;
+  color:#567BFF;
+}
+
+.react-calendar__tile--active {
+  background-color:#567BFF;
+  color: white;
+  border-radius: 8px;
+  font-weight: 600;
+}
+
+.react-calendar__tile:hover {
+  background-color: #bfdbfe;
+  color: #567BFF;
+}

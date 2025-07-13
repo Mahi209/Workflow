@@ -1,0 +1,66 @@
+#login-box{
+    margin-top:20px;
+}
+.login-formgroup label{
+    margin-left:1px;
+    color: #0F172A;
+    width: 7.5px;
+    font-size: small;
+    font-family: 'Inter', 'Roboto', 'Segoe UI', sans-serif;
+    font-weight:inherit;
+
+}
+.login-formgroup input{
+    border:1px solid #CBD5E1;
+    border-radius:6px;
+    margin-top:5px;
+    width: 350px;
+    height: 5vh;
+}
+.login-formgroup{
+    margin-top: 20px;
+}
+.formgroup{
+    margin-top:20px;
+}
+.formgroup input::placeholder,.formgroup2 input::placeholder{
+    padding-left: 1.5vh;
+}
+#login-checkbox{
+    margin-left: 8rem;
+}
+#login-button{
+    margin-top: 10px;
+    margin-left: 7rem;
+    padding-top: 8px;
+    width: 10rem;
+    height: 2.3rem;
+    color: white;
+    background-color: #2C2DC1;
+    border: none;
+    border-radius: 6px;
+    display: flex;
+    gap: 8px;
+    padding-left: 4rem;
+    transition: all 0.1s ease-in;
+}
+#signup-button{
+    margin-left:83px
+}
+#msg6{
+    margin-top:1rem;
+    margin-left: 9rem;
+    color:#64748B;
+    font-size:9.5px;
+    font-family: 'Inter', 'Roboto', 'Segoe UI', sans-serif;
+    text-decoration: underline;
+}
+#login-plant1,#login-plant2{
+ margin-top: 4.6rem;
+    height: 10rem;
+    width: auto;
+    margin-left: 30px;
+}
+#login-plant2{
+    margin-left: 84.5%;
+}

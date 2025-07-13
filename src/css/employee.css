@@ -1,0 +1,97 @@
+#emp-outer{
+    display: flex;
+}
+#emp-o{
+    margin-left: -73%;
+    width: 100rem;
+    background-color: #E7ECFE;
+}
+#employees{
+    display: flex;
+    gap: 30%;
+    height: max-content;
+    width: 100%;
+}
+#emp-elements{
+    margin-top: 40px;
+    gap: 20px;
+}
+#add-emp,#emp-elements input[type="search"],#sort-btn,#export-btn{
+    border: none;
+    border-radius: 6px;
+    margin-left: 20px;
+    font-size: 10px;
+    padding:5px 10px ;
+}
+#add-emp,#export-btn{
+    cursor: pointer;
+    color: white;
+    background-color: #567BFF;
+}
+#emp-txt{
+    color: #567BFF;
+    font-size: 30px;
+}
+#employee-card{
+    margin-top:20px;
+    margin-left: 50px;
+    height: 70vh;
+    width: 85%;
+    border-radius: 20px;
+    background-color:white;
+    box-shadow: 0px 10px 10px #E2ECF980;
+}#employee-card {
+  margin-top: 20px;
+  background-color: white;
+  border-radius: 12px;
+  padding: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.employee-row {
+  display: grid;
+  grid-template-columns: 1.2fr 2fr 1.5fr 1.5fr 1fr 1fr;
+  align-items: center;
+  padding: 10px 0;
+  border-bottom: 1px solid #e0e0e0;
+  font-size: 0.95rem;
+}
+
+.employee-row.header {
+  font-weight: 600;
+  background-color: #f1f5f9;
+  border-radius: 8px;
+}
+
+.status {
+  padding: 4px 10px;
+  border-radius: 5px;
+  font-size: 0.85rem;
+  font-weight: 500;
+  display: inline-block;
+  text-align: center;
+}
+
+.status.active {
+    border:1px solid #065f46;
+  background-color: #d1fae5;
+  color: #065f46;
+}
+
+.status.inactive {
+    border: 1px solid #991b1b;
+  background-color: #fee2e2;
+  color: #991b1b;
+}
+
+.actions button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+  margin: 0 4px;
+}
+
+.actions button:hover {
+  transform: scale(1.1);
+}
