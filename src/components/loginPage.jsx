@@ -140,7 +140,8 @@ const navigate=useNavigate();
                 <div id="login-checkbox">
                   <input type="checkbox" /><label>Remember me</label>
                 </div>
-                <button type="submit" id="Login-button"><span>Login</span></button>
+                <Link to='/dashboard'>
+                <button id="Login-button"><span>Login</span></button></Link>
                 <p id="msg6">Forgot password?</p>
               </div>
             </form>
